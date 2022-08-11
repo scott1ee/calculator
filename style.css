@@ -1,7 +1,21 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
     .buttons button {
         padding: 10px;
         left: 15px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .buttons button {
+        padding: 10px;
+        left: 34px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .buttons button {
+        padding: 10px;
+        left: 230px;
     }
 }
 
