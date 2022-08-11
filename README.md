@@ -1,3 +1,3 @@
-# calculator
-calculator with the basics :)
+# Calculator
+Calculator with the basics :)
 - Link: https://scott1ee.github.io/calculator/
