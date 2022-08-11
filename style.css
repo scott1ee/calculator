@@ -1,0 +1,13 @@
+@media screen and (min-width: 400px) {
+    .buttons button {
+        padding: 10px;
+        left: 15px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .buttons button {
+        padding: 10px;
+        left: 500px;
+    }
+}

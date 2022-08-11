@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="column">
+        <div class="input-text-number">
+            <button id="result" class="button is-medium is-fullwidth is-rounded is-focused">0</button>
+        </div>
+        <div class="column buttons">
+            <button onclick="add('7')" class="button is-large is-rounded">7</button>
+            <button onclick="add('8')" class="button is-large is-rounded">8</button>
+            <button onclick="add('9')" class="button is-large is-rounded">9</button>
+            <button onclick="add('/')" class="button is-large is-rounded">/</button>
+            <br>
+            <button onclick="add('4')" class="button is-large is-rounded">4</button>
+            <button onclick="add('5')" class="button is-large is-rounded">5</button>
+            <button onclick="add('6')" class="button is-large is-rounded">6</button>
+            <button onclick="add('*')" class="button is-large is-rounded">x</button>
+            <br>
+            <button onclick="add('1')" class="button is-large is-rounded">1</button>
+            <button onclick="add('2')" class="button is-large is-rounded">2</button>
+            <button onclick="add('3')" class="button is-large is-rounded">3</button>
+            <button onclick="add('-')" class="button is-large is-rounded">-</button>
+            <br>
+            <button onclick="del()" class="button is-large is-rounded">C</button>
+            <button onclick="add('0')" class="button is-large is-rounded">0</button>
+            <button onclick="calc()" class="button is-large is-rounded">=</button>
+            <button onclick="add('+')" class="button is-large is-rounded">+</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
